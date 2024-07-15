@@ -75,3 +75,24 @@ Si deseas personalizar más el CV, puedes modificar los siguientes elementos en 
 ## Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si deseas añadir soporte para fuentes personalizadas o mejorar cualquier otra funcionalidad, no dudes en abrir un pull request.
+
+---
+# CVML en VSCode
+
+Para que vsc te tokenize los archivos.cvml como xml sique estos pasos:
+
+### Editar settings.json en Visual Studio Code:
+
+Abre tu archivo settings.json en Visual Studio Code. Puedes acceder a este archivo yendo a File > Preferences > Settings y luego buscando y seleccionando Edit in settings.json en la esquina superior derecha.
+
+### Añadir la configuración de archivos:
+
+Añade la siguiente configuración a tu settings.json para que VSC trate los archivos .cvml como XML:
+
+```json
+{
+  "files.associations": {
+    "*.cvml": "xml"
+  }
+}
+```
