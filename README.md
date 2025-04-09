@@ -21,11 +21,11 @@ El archivo XML que describe tu CV debe seguir esta estructura:
 
 ```xml
 <cvml>
-    <header>
+    <head>
         <language>en|es</language>
         <color>red</color>
         <font>Time-Roman</font>
-    </header>
+    </head>
     <body>
         <name>John Doe</name>
         <website>www.johndoe.com</website>
@@ -48,20 +48,16 @@ El archivo XML que describe tu CV debe seguir esta estructura:
 
 ## Instrucciones de Uso
 
-1. Clona el repositorio:
-```bash
-git clone https://github.com/Gabrielito666/cv-creator.git
-```
+1. nesecitaras tener una versión de nodejs superior a las 18 y npm.
    
-2. Instala las dependencias:
+2. Ejecuta el instalador
 ```bash
-cd cv-creator
-npm install
+curl -L https://raw.githubusercontent.com/Gabrielito666/cv-creator/main/install.sh | bash
 ```
 
 3. Genera tu CV en formato PDF:
 ```bash
-node path/al/repo/index.js path/a/mi/archivo.cvml ./output.pdf
+cv-creator path/a/mi/archivo.cvml ./output.pdf
 ```
 
 ## Personalización

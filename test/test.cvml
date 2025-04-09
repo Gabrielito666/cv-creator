@@ -1,0 +1,24 @@
+<cvml>
+    <head>
+        <language>en</language>
+        <color>red</color>
+        <font>Time-Roman</font>
+    </head>
+    <body>
+        <name>John Doe</name>
+        <website>www.johndoe.com</website>
+        <contact>
+            <email>john.doe@example.com</email>
+            <phone>+1234567890</phone>
+            <address>1234 Main St, Anytown, USA</address>
+        </contact>
+        <skills>
+            <skill>Programming</skill>
+            <skill>Web Development</skill>
+            <skill>Data Analysis</skill>
+        </skills>
+        <profile>Experienced developer with a strong background in web technologies and data analysis.</profile>
+        <experience>5 years of experience in full-stack development, working with a variety of technologies and frameworks.</experience>
+        <education>Bachelor's degree in Computer Science from XYZ University.</education>
+    </body>
+</cvml>
