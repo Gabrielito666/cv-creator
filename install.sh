@@ -26,7 +26,7 @@ curl -L https://raw.githubusercontent.com/Gabrielito666/cv-creator/main/package.
 
 # Instalar dependencias
 cd ~/.cv-creator
-npm install --production
+npm install --omit=dev
 
 # Agregar alias
 echo 'alias cv-creator="node ~/.cv-creator/index.js"' >> ~/.bashrc

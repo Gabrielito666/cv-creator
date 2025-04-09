@@ -1,6 +1,6 @@
 {
   "name": "cv-creator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generador de CVs en PDF",
   "scripts": {
     "start": "node bundle.js"
@@ -9,6 +9,6 @@
     "canvas": "^3.1.0"
   },
   "devDependencies": {
-    "@lek-js/xmlx": "^1.0.1"
+    "@lek-js/xmlx": "^1.0.2"
   }
 }
